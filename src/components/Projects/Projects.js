@@ -28,46 +28,49 @@ const Projects = () => {
 		<Section id='projects'>
 			<SectionDivider />
 			<SectionTitle main>Projets</SectionTitle>
-			<ProjectsMenu setStateSlug={setStateSlug}/>
+			<ProjectsMenu setStateSlug={setStateSlug} />
 			<GridContainer>
 				{projects.map(
-					({ id, image, title, description, tags, source, visit, slug }) =>
-						slug === stateSlug && (
-							<BlogCard key={id}>
-								<Img src={image} />
-								<TitleContent>
-									<HeaderThree title>{title}</HeaderThree>
-									<Hr />
-								</TitleContent>
-								{/* <CardInfo>{description}</CardInfo> */}
-								{/* <Hr /> */}
-								<div>
-									<TitleContent>Stack</TitleContent>
-									<TagList>
-										{tags.map((tag, i) => (
-											<Tag key={i}>{tag}</Tag>
-										))}
-									</TagList>
+					({ name, data }) =>
+						name === stateSlug &&
+						data.map(
+							({ id, image, title, description, tags, source, visit }) => (
+								<BlogCard key={id}>
+									<Img src={image} />
+									<TitleContent>
+										<HeaderThree title>{title}</HeaderThree>
+										<Hr />
+									</TitleContent>
+									{/* <CardInfo>{description}</CardInfo> */}
+									{/* <Hr /> */}
 									<div>
-										<UtilityList>
-											<ExternalLinks
-												href={source}
-												target='_blank'
-												rel='noopener noreferrer'
-											>
-												Code
-											</ExternalLinks>
-											<ExternalLinks
-												href={visit}
-												target='_blank'
-												rel='noopener noreferrer'
-											>
-												View
-											</ExternalLinks>
-										</UtilityList>
+										<TitleContent>Stack</TitleContent>
+										<TagList>
+											{tags.map((tag, i) => (
+												<Tag key={i}>{tag}</Tag>
+											))}
+										</TagList>
+										<div>
+											<UtilityList>
+												<ExternalLinks
+													href={source}
+													target='_blank'
+													rel='noopener noreferrer'
+												>
+													Code
+												</ExternalLinks>
+												<ExternalLinks
+													href={visit}
+													target='_blank'
+													rel='noopener noreferrer'
+												>
+													View
+												</ExternalLinks>
+											</UtilityList>
+										</div>
 									</div>
-								</div>
-							</BlogCard>
+								</BlogCard>
+							)
 						)
 				)}
 			</GridContainer>

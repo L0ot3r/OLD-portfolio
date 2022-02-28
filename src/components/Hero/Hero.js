@@ -23,7 +23,7 @@ const Hero = (props) => (
 			</SectionText>
 			<Button
 				onClick={() =>
-					window.open('https://google.com', '_blank', 'noopener,noreferrer')
+					window.open('https://github.com/L0ot3r', '_blank', 'noopener,noreferrer')
 				}
 			>
 				En savoir plus
