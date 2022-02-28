@@ -56,7 +56,7 @@ export const projects = [
 				title: 'Infinite galery scroll',
 				description:
 					'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse facere, eum qui possimus ipsam obcaecati fugiat sed, nihil blanditiis, quam autem deleniti! Commodi, earum aspernatur. Consequatur assumenda aspernatur, consequuntur sapiente eius praesentium perferendis pariatur nulla maiores ullam doloribus! Nostrum, illo.',
-				image: '/images/EDW/infinite-galery.png',
+				image: '/images/EDW/infiniteGalery.png',
 				tags: ['React', 'ChatEngine', 'Firebase'],
 				source: 'https://github.com/L0ot3r/EDW-REACT-infinite-galery-scroll',
 				visit: 'https://edw-react-infinite-galery-scroll.vercel.app/',
