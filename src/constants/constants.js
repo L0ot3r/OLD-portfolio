@@ -3,6 +3,16 @@ export const projects = [
 		name: 'cours',
 		data: [
 			{
+				title: 'GPT-3 Overview',
+				description:
+					'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse facere, eum qui possimus ipsam obcaecati fugiat sed, nihil blanditiis, quam autem deleniti! Commodi, earum aspernatur. Consequatur assumenda aspernatur, consequuntur sapiente eius praesentium perferendis pariatur nulla maiores ullam doloribus! Nostrum, illo.',
+				image: '/images/perso/gpt3-prestaverse.png',
+				tags: ['React', 'CSS', 'Responsive'],
+				source: 'https://github.com/L0ot3r/JSMastery-gpt3-prestaverse',
+				visit: 'https://jsm-gpt3-prestaverse.vercel.app/',
+				id: 7,
+			},
+			{
 				title: `Slider d'image`,
 				description:
 					'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae id blanditiis incidunt omnis. Ea facere distinctio tempore!',
@@ -72,16 +82,7 @@ export const projects = [
 				visit: 'https://edw-react-anim-apparition.vercel.app/',
 				id: 6,
 			},
-			{
-				title: 'GPT-3 Overview',
-				description:
-					'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse facere, eum qui possimus ipsam obcaecati fugiat sed, nihil blanditiis, quam autem deleniti! Commodi, earum aspernatur. Consequatur assumenda aspernatur, consequuntur sapiente eius praesentium perferendis pariatur nulla maiores ullam doloribus! Nostrum, illo.',
-				image: '/images/perso/gpt3-prestaverse.png',
-				tags: ['React', 'CSS', 'Firebase'],
-				source: 'https://github.com/L0ot3r/JSMastery-gpt3-prestaverse',
-				visit: 'https://jsm-astery-gpt3-prestaverse.vercel.app/',
-				id: 7,
-			},
+			
 		],
 	},
 	{
