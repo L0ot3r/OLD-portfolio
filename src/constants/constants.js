@@ -82,6 +82,16 @@ export const projects = [
 				visit: 'https://edw-react-anim-apparition.vercel.app/',
 				id: 6,
 			},
+			{
+				title: 'Showcase NFT Marketplace',
+				description:
+					'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse facere, eum qui possimus ipsam obcaecati fugiat sed, nihil blanditiis, quam autem deleniti! Commodi, earum aspernatur. Consequatur assumenda aspernatur, consequuntur sapiente eius praesentium perferendis pariatur nulla maiores ullam doloribus! Nostrum, illo.',
+				image: '/images/JSM/showcase-NFT-Marketplace.png',
+				tags: ['React Native', 'React'],
+				source: 'https://github.com/L0ot3r/showcase-NFT-Marketplace',
+				visit: 'https://showcase-nft-marketplace-three.vercel.app/',
+				id: 7,
+			},
 			
 		],
 	},
